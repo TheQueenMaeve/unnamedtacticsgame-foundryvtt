@@ -1,0 +1,59 @@
+{
+  "Actor":{},
+    "Item":{
+    "types":[
+     "melee weapon",
+     "ranged weapon",
+     "skill"
+    ], 
+      "templates":{
+        "itemDescription": {
+          "description":""
+        },
+         "templates":{
+        "skillDescription": {
+          "description":""
+        }
+      },
+      "melee weapon": {
+        "templates":["itemDescription"],
+        "attackWith": "melee",
+      "damage":0,
+        "range":0,
+          "areaOfEffect":1,
+           "line":false,
+                  "lineLength":0,
+                  "horizontal":false,
+                    "horizontalLength":1,
+                "statusEffect": false,
+                "statusEffectChance":0
+    },
+      "ranged weapon": {
+        "templates":["itemDescription"],
+        "attackWith": "range",
+          "damage":0,
+          "reload":0,
+          "range":0,
+          "areaOfEffect":1,
+              "line":false,
+                  "lineLength":0,
+                  "horizontal":false,
+                    "horizontalLength":1,
+                "statusEffect": false,
+                "statusEffectChance":0
+      },
+        "skill": {
+          "templates":["skillDescription"],
+          "attackWith": "skill",
+            "damage":0,
+            "range":0,
+              "areaOfEffect":1,
+                "line":false,
+                  "lineLength":0,
+                  "horizontal":false,
+                    "horizontalLength":1,
+                "statusEffect":false,
+                "statusEffectChance":0
+        }
+      }
+    }
