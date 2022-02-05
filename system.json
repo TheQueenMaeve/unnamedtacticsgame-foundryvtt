@@ -44,5 +44,5 @@
   "secondaryTokenAttribute": "resources.mana",
   "tertiaryTokenAttribute": "resources.morale",
   "url": "https://github.com/TheQueenMaeve/unnamedtacticsgame-foundryvtt/blob/main/system.json",
-  "manifest": "https://your/hosted/system/repo/system.json",
+  "manifest": "https://github.com/TheQueenMaeve/unnamedtacticsgame-foundryvtt/blob/main/system.json",
   "download": ""
